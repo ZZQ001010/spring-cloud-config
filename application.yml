@@ -1,2 +1,15 @@
-server:
-  port: 3388
+spring:
+  profiles:
+    active:
+    -dev
+---
+spring:
+  profiles:
+  application:
+    name: microservicecloud-config-atguigu-dev
+---
+spring:
+  profiles:
+  application:
+    name: microservicecloud-config-atguigu-test
+
