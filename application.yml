@@ -1,3 +1,2 @@
-server.port=8888 server edit 
-
-add 
+server:
+  port: 3388
